@@ -3,8 +3,8 @@ from datetime import datetime as dt
 import pylab as p
 import numpy as np
 
-#download maybank(1155) data from 2013 to 2015
-start = dt(2013, 1, 1)
+#download maybank(1155) data from 2012 to 2015
+start = dt(2012, 1, 1)
 end = dt(2015, 1, 1)
 data = DR("1155.KL", 'yahoo', start, end)
 
